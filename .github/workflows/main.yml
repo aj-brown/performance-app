@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: ["**"]
 
+permissions:
+  pull-requests: write
+
 jobs:
   build-validate-pref-tests:
     name: Build, validate & run performance tests
