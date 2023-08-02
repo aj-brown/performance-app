@@ -8,7 +8,7 @@ const AsyncComponent = () => {
   const [count, setCount] = React.useState(0);
 
   const handlePress = () => {
-    setTimeout(() => setCount((c) => c + 1), 10);
+    setTimeout(() => setCount((c) => c + 1), 5);
   };
 
   return (
@@ -19,7 +19,7 @@ const AsyncComponent = () => {
 
       <Text>Count: {count}</Text>
 
-      <SlowList count={200} />
+      <SlowList count={20} />
     </View>
   );
 };
