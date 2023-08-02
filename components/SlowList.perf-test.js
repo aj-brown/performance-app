@@ -19,7 +19,7 @@ const AsyncComponent = () => {
 
       <Text>Count: {count}</Text>
 
-      <SlowList count={200} />
+      <SlowList count={20} />
     </View>
   );
 };
